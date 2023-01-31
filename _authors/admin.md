@@ -1,0 +1,13 @@
+---
+name: Administrator
+username: admin
+site: https://fptufia.me/
+bio: "Xin chào!! Admin bị tấn công ! Help me with some stuff !"
+avatar: fia.png
+email: fiafptinformationassurance@gmail.com
+social:
+    - title: "github"
+      url: "https://github.com/FIA-FPT"
+    - title: "facebook"
+      url: "https://www.facebook.com/fptinformationassurance"
+---

@@ -205,12 +205,6 @@ header {
   font-weight: 600;
 }
 
-@media only screen and (max-width: 768px) {
-  .navbar-dark .navbar-nav .nav-link {
-    flex-direction: column;
-  }
-}
-
 .navbar-dark .navbar-toggler {
   border-color: transparent !important;
 }
@@ -698,6 +692,12 @@ header {
   font-size: 15px !important;
   color: var(--main-text-color);
   font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-nav .nav-link {
+    flex-direction: column;
+  }
 }
 
 #author_projects .project-img {

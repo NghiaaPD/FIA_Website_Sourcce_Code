@@ -207,6 +207,8 @@ header {
 }
 .navbar-dark .navbar-nav .nav-link {
     color: var(--nav-link-color) !important;
+    display: flex;
+    flex-wrap: nowrap;
 }
 .navbar-dark .navbar-toggler {
     border-color:transparent !important;

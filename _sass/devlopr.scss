@@ -207,8 +207,7 @@ header {
 }
 .navbar-dark .navbar-nav .nav-link {
     color: var(--nav-link-color) !important;
-    display: flex;
-    flex-wrap: nowrap;
+    
 }
 .navbar-dark .navbar-toggler {
     border-color:transparent !important;
@@ -666,6 +665,8 @@ header {
         font-size: 15px !important;
         color: var(--main-text-color);
         font-weight: 600;
+        display: flex;
+        flex-wrap: nowrap;
     }
 
 }

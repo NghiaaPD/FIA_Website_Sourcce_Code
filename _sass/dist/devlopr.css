@@ -199,6 +199,10 @@ header {
 
 .navbar-dark .navbar-nav .nav-link {
   color: var(--nav-link-color) !important;
+  display: inline-block;
+  font-size: 15px !important;
+  color: var(--main-text-color);
+  font-weight: 600;
 }
 
 .navbar-dark .navbar-toggler {
@@ -681,8 +685,13 @@ header {
   font-size: 15px !important;
   color: var(--main-text-color);
   font-weight: 600;
-  display: flex;
-  flex-wrap: nowrap;
+}
+
+.navbar-nav .nav-link {
+  display: inline-block;
+  font-size: 15px !important;
+  color: var(--main-text-color);
+  font-weight: 600;
 }
 
 #author_projects .project-img {

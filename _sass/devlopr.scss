@@ -213,6 +213,14 @@ header {
     font-weight: 600;
     
 }
+@media (max-width: 768px) {
+    .navbar-dark .navbar-nav .nav-link {
+      display: block;
+      font-size: 14px;
+      margin: 10px 0;
+      text-align: center;
+    }
+  }
 
   
 .navbar-dark .navbar-toggler {

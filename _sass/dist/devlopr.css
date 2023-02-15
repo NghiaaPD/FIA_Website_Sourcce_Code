@@ -694,9 +694,12 @@ header {
   font-weight: 600;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .navbar-nav .nav-link {
-    flex-direction: column;
+    display: block;
+    font-size: 14px;
+    margin: 10px 0;
+    text-align: center;
   }
 }
 
